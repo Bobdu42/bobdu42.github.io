@@ -1,30 +1,33 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
     <title>Exemple de balises HTML</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<button id="monbouton">Accueil</button>
-	<button id="button">Les Balises</button>
-	<button id="button">Page Info</button>
-
+	<header>
+		<h1 id="button"><button id="merge"> Accueil </button><button id="merge" > Les Balises </button><button id="merge"> Page Info </button></h1>
+	</header>
 	<h1> Accueil </h1>
-	<!-- <p> Bienvenue sur la page des principales balises HTML.</p> -->
-	<h2> Les Balises </h2>	
-	<p> Voici quelques-unes des balises HTML les plus utilisées : </p>
-	<ul>
-		<li> &lsaquo; h1 &rsaquo; - pour les titres principaux </li>
-		<li> &lsaquo; p &rsaquo; - pour les paragraphes </li>
-		<li> &lsaquo; a &rsaquo; - pour les liens </li>
-		<li> &lsaquo; img &rsaquo; - pour les images </li>
-		<li> &lsaquo; ul &rsaquo; et &lsaquo; li &rsaquo; - pour les listes non ordonnées
-	</ul>
-	<h2> Page Info </h2>
-	<p> Cette page est un exe
-
-
+	<p> Bienvenue sur la page des principales balises HTML. </p>
+	<div>
+		<h2 id="deu"> Les balises </h2>
+		<p> Voici quelques unes des balises HTML les plus utilisées : </p>
+		<ul>
+			<li> &lsaquo; h1 &rsaquo; - pour les titres principaux </li>
+			<li> &lsaquo; p &rsaquo; - pour les paragraphes </li>
+			<li> &lsaquo; a &rsaquo; - pour les liens </li>
+			<li> &lsaquo; img	&rsaquo; - pour les images </li>
+			<li> &lsaquo; ul	&rsaquo; et &lsaquo;li	&rsaquo; pour les listes non ordonnées </li>
+		</ul>
+	</div>
+	<div>
+		<h2 id="margintop">Page Info </h2>
+		<p> Cette page est un exemple de présentation des balises HTML</p>
+		<p> Voici un exemple d'iframe intégrant un jeu :</p>
+		<iframe src="https://kitao.github.io/pyxel/wasm/launcher/?run=estebe2000.streamlitnsi.app&gamepad=enabled" width="1080" height="200" style="border:none;"></iframe>		
+		<p> Pour plus d'informations, visitez la <a href="https://www.pyxelstudio.net/">page du lanceur Pyxel</a>
+	</div>
 </body>
-</html>
